@@ -56,16 +56,16 @@
 					class="w-auto h-fit object-contain"
 				/>
 			{:else}
-				<img
+				<!-- <img
 					src="https://res.cloudinary.com/dmqndbqqy/image/upload/f_auto,q_auto,w_800,h_300/v1/digitimatic-media/nqojmhymz0jp4zvqv7cw"
 					alt="Digitimatic"
 					class="w-auto h-fit object-contain"
-				/>
-				<!-- <img
+				/> -->
+				<img
 					src="https://res.cloudinary.com/dmqndbqqy/image/upload/v1/digitimatic-media/jyhuiubuywqacrjeptfw"
 					alt="Digitimatic"
 					class="w-[135px] h-[60px] object-contain bg-black rounded"
-				/> -->
+				/>
 			{/if}
 		</div>
 		<div class="flex gap-3">
