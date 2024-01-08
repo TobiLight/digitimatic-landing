@@ -33,7 +33,7 @@
 	>
 		<div class="what-we-do grid gap-4 md:gap-10 py-12">
 			<div class="flex items-center gap-4">
-				<h1 class="w-[160px] font-bold md:text-lg">What We Do</h1>
+				<h1 class="w-[160px] font-bold text-sm md:text-lg">What We Do</h1>
 				<div class="w-full h-[2px] dark:bg-white bg-black"></div>
 			</div>
 			<p class="tracking-wider md:text-4xl md:leading-[1.1] md:tracking-wide font-light font-[monospac">
@@ -48,7 +48,7 @@
 		<hr class="hidden lg:grid h-[inherit] w-2 dark:bg-white bg-black">
 		<div class="who-we-help grid gap-4 md:gap-10 py-12">
 			<div class="flex items-center gap-4">
-				<h1 class="w-[160px] font-bold md:text-lg">Who We Help</h1>
+				<h1 class="w-[160px] font-bold text-sm md:text-lg">Who We Help</h1>
 				<div class="w-full h-[2px] dark:bg-white bg-black"></div>
 			</div>
 			<p class="tracking-wider md:text-4xl md:leading-[1.1] md:tracking-wide font-light font-[monospac">
