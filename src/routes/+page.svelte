@@ -5,7 +5,7 @@
 <div>
 	<section
 		id="heading"
-		class="pt-32 pb-44 sticky h-auto top-0 flex justify-end flex-col items-stretch z-[1]"
+		class="pt-32 pb-44 md:sticky h-auto top-0 flex justify-end flex-col items-stretch z-[1]"
 	>
 		<div class="grid mx-auto md:mx-auto px-8 relative md:w-[560px]">
 			<div
