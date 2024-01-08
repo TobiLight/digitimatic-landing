@@ -48,7 +48,7 @@
 
 <div class="app dark:bg-black dark:text-white bg-white">
 	<header class="flex items-center p-3 w-full justify-between">
-		<div class="logo grid w-28 h-fit md:w-36">
+		<div class="logo flex flex-col w-28 md:w-36">
 			<img
 				src="https://res.cloudinary.com/dmqndbqqy/image/upload/f_auto,q_auto/v1/digitimatic-media/jyhuiubuywqacrjeptfw"
 				alt="Digitimatic"
