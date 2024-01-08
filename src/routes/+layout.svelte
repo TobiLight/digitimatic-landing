@@ -48,25 +48,12 @@
 
 <div class="app dark:bg-black dark:text-white bg-white">
 	<header class="flex items-center p-3 w-full justify-between">
-		<div class="logo w-28 md:w-36">
-			{#if currentTheme === 'dark'}
-				<img
-					src="https://res.cloudinary.com/dmqndbqqy/image/upload/f_auto,q_auto/v1/digitimatic-media/jyhuiubuywqacrjeptfw"
-					alt="Digitimatic"
-					class="w-auto h-fit object-contain"
-				/>
-			{:else}
-				<!-- <img
-					src="https://res.cloudinary.com/dmqndbqqy/image/upload/f_auto,q_auto,w_800,h_300/v1/digitimatic-media/nqojmhymz0jp4zvqv7cw"
-					alt="Digitimatic"
-					class="w-auto h-fit object-contain"
-				/> -->
-				<img
-					src="https://res.cloudinary.com/dmqndbqqy/image/upload/v1/digitimatic-media/jyhuiubuywqacrjeptfw"
-					alt="Digitimatic"
-					class="w-[135px] h-[60px] object-contain bg-black rounded"
-				/>
-			{/if}
+		<div class="logo w-28 h-auto md:w-36">
+			<img
+				src="https://res.cloudinary.com/dmqndbqqy/image/upload/f_auto,q_auto/v1/digitimatic-media/jyhuiubuywqacrjeptfw"
+				alt="Digitimatic"
+				class={`w-auto h-fit object-contain ${currentTheme === 'dark' ? '' : 'bg-black px-3 rounded'}`}
+			/>
 		</div>
 		<div class="flex gap-3">
 			{#if currentTheme === 'light'}
