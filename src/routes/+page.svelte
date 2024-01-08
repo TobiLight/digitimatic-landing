@@ -9,17 +9,17 @@
 	>
 		<div class="grid mx-auto md:mx-auto px-8 relative md:w-[560px]">
 			<div
-				class="w-[200px] relative top-2 right-[-80px] sm:top-2 sm:right-[-125px] md:top-[10px] md:right-[-225px]"
+				class="w-[200px] relative top-2 right-[-80px] sm:top-2 sm:right-[-125px] md:top-[10px] md:right-[-205px]"
 			>
 				<p class="leading-[1] font-semibold">
 					A Modern <br /> Executive’s Personal Branding Agency
 				</p>
 				<div class="h-[2px] w-[50px] bg-black dark:bg-white absolute top-[12px] right-[70px]"></div>
 			</div>
-			<h1 class="text-[5rem] leading-[1] font-bold text-centr">Our story is telling yours.</h1>
+			<h1 class="text-5xl sm:text-[5rem] md:text-7xl leading-[1] font-bold text-centr">Our story is telling yours.</h1>
 		</div>
-		<div class="w-fit grid mx-auto relative top-12 md:top-[15px] md:right-[-320px]">
-			<ArrowLeft class="w-36 h-36 md:w-44 md:h-44 dark:text-white animate-bounce" />
+		<div class="w-fit grid mx-auto relative top-12 lg:top-[15px] lg:right-[-280px]">
+			<ArrowLeft class="w-24 h-24 sm:w-36 sm:h-36 md:w-44 md:h-44 dark:text-white animate-bounce" />
 			<a
 				href="/#"
 				class="px-6 py-2 w-fit h-fit rounded border-2 border-black dark:border-white text-center hover:dark:bg-white hover:dark:text-black hover:bg-black hover:text-white transition-all ease-linear"

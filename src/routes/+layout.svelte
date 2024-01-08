@@ -48,7 +48,7 @@
 
 <div class="app dark:bg-black dark:text-white bg-white">
 	<header class="flex items-center p-3 w-full justify-between">
-		<div class="logo w-36">
+		<div class="logo w-28 md:w-36">
 			{#if currentTheme === 'dark'}
 				<img
 					src="https://res.cloudinary.com/dmqndbqqy/image/upload/f_auto,q_auto/v1/digitimatic-media/jyhuiubuywqacrjeptfw"
@@ -92,7 +92,7 @@
 			{/if}
 			<a
 				href="/#"
-				class="border-2 border-black dark:bg-white dark:text-black font-bold px-4 py-2 rounded"
+				class="border-2 text-xs md:text-base border-black dark:bg-white dark:text-black font-bold p-2 mdd:px-4 md:py-2 rounded"
 				>Join The Waitlist</a
 			>
 		</div>
