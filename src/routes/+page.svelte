@@ -36,7 +36,7 @@
 				<h1 class="w-[160px] font-bold text-sm md:text-lg">What We Do</h1>
 				<div class="w-full h-[2px] dark:bg-white bg-black"></div>
 			</div>
-			<p class="tracking-wider md:text-4xl md:leading-[1.1] md:tracking-wide font-light font-[monospac">
+			<p class="tracking-wider md:text-4xl md:leading-[1.1] md:tracking-wide">
 				In an age of abundance, building a <span class="font-extrabold"
 					>trusted audience is priceless</span
 				>. Executives are becoming the most important stewards of their company, but they lack the
@@ -51,7 +51,7 @@
 				<h1 class="w-[160px] font-bold text-sm md:text-lg">Who We Help</h1>
 				<div class="w-full h-[2px] dark:bg-white bg-black"></div>
 			</div>
-			<p class="tracking-wider md:text-4xl md:leading-[1.1] md:tracking-wide font-light font-[monospac">
+			<p class="tracking-wider md:text-4xl md:leading-[1.1] md:tracking-wide">
 				<span class="font-extrabold">Digitimatic</span> helps top executives, investors and
 				entrepreneurs <span class="font-extrabold">build their personal brand</span> and own their
 				corner of the internet, by capturing, sharing and amplifying their
