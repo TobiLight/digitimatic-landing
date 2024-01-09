@@ -154,7 +154,7 @@
 	</section>
 
 	<section
-		class="dark:bg-black bg-white relative z-[3] border-t-2 border-black dark:border-white flex flex-col gap-10 p-8"
+		class="dark:bg-black bg-white relative z-[3] border-t-2 border-black dark:border-white flex flex-col gap-10 p-4"
 	>
 		<div class="flex items-center gap-2">
 			<div class="w-full h-[2px] dark:bg-white bg-black"></div>
@@ -176,7 +176,7 @@
 			<div
 				class="border dark:border-white border-black rounded-md p-4 w-full flex flex-col items-center justify-center"
 			>
-				<h1 class="font-bold text-4xl">Capture</h1>
+				<h1 class="font-bold text-4xl">Translate</h1>
 				<Translate class="w-64 h-64" />
 				<p class="w-full px-10 text-center">
 					Content is translated into compelling stories in your voice & tone by dedicated content &
