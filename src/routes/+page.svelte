@@ -203,9 +203,9 @@
 
 	<section class="bg-black relative z-[5]">
 		<div id="contact" class="p-8 z-[6] dark:text-white text-white">
-			<div class="py-4">
-				<h1 class="font-bold text-5xl w-4/5 md:w-2/4">Own Your Corner of the Internet in 5 Minutes</h1>
-				<div class="grid sm:w-4/5 md:w-3/5 gap-5 mt-8">
+			<div class="py-4 max-w-[650px]">
+				<h1 class="font-bold text-5xl w-full">Own Your Corner of the Internet in 5 Minutes</h1>
+				<div class="grid w-full gap-5 mt-8">
 					<p>
 						Send us your email, and we’ll send you a few questions to make sure we’re a great fit.
 					</p>
@@ -216,7 +216,7 @@
 							placeholder="name@example.com"
 							class="bg-white p-[10px] rounded-md focus:outline-none w-full flex-1"
 						/>
-						<button class="p-3 rounded-md w-full sm:w-[20%] bg-black text-white h-auto">Get Started</button>
+						<button class="p-3 rounded-md w-full sm:w-[25%] bg-black text-white h-auto">Get Started</button>
 					</form>
 				</div>
 			</div>
