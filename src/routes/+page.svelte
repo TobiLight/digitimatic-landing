@@ -196,7 +196,7 @@
 		</div>
 	</section>
 
-	<section class="p-8 bg-[url('')]">
+	<section class="p-8 bg-[url('https://res.cloudinary.com/ddt59lbmx/image/upload/f_auto,q_auto/v1/digitimatic/g5gutzqme2kqtc9mlijn')] bg-fixed bg-cover bg-center">
 
 	</section>
 </div>
