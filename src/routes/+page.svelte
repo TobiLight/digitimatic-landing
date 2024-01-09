@@ -3,6 +3,7 @@
 	import Growth from '$lib/icons/Growth.svelte';
 	import Capture from '$lib/icons/Capture.svelte';
 	import Translate from '$lib/icons/Translate.svelte';
+	import { fade } from 'svelte/transition';
 
 	let services = [
 		{
@@ -142,7 +143,7 @@
 							<div class="h-6 w-1 dark:bg-white bg-black relative -top-[10px] -right-[14px]"></div>
 						</button>
 					</div>
-					<div class={`panel ${item.show ? 'block' : 'hidden'}`}>
+					<div transition:fade class={`panel transition-all ease-in-out ${item.show ? 'max-h-[300px] py-1 opacity-1' : 'max-h-0 py-0 opacity-0'}`}>
 						<p>
 							{item.content}
 						</p>
