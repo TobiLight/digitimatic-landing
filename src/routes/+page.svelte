@@ -232,7 +232,7 @@
 			url(https://res.cloudinary.com/dmqndbqqy/image/upload/f_auto,q_auto/v1/digitimatic-media/grparh5unu3bantpdtmw);
 		background-position:
 			0 0,
-			50% 0;
+			0% 0;
 		background-size: auto, cover;
 		background-attachment: scroll, fixed;
 		position: -webkit-sticky;
