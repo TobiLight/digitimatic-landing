@@ -128,7 +128,7 @@
 	</section>
 
 	<section
-		class="dark:bg-black bg-white relative z-[3] border-t-2 border-black dark:border-white flex flex-col gap-6 md:flex-row p-8"
+		class="dark:bg-black bg-white relative z-[3] border-t-2 border-black dark:border-white flex flex-col gap-6 md:flex-row p-4"
 	>
 		<div class="pt-6">
 			<h1 class="text-4xl sm:text-7xl md:text-8xl font-bold">Your mini media company.</h1>
@@ -194,5 +194,9 @@
 				</p>
 			</div>
 		</div>
+	</section>
+
+	<section class="p-8 bg-[(url]">
+
 	</section>
 </div>
