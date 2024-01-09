@@ -10,42 +10,42 @@
 			id: 'social-content',
 			name: 'SOCIAL CONTENT',
 			content:
-				'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+				'Expertly tailored personal copy, written in your voice, strategically positioned to grow and convert your online niche.',
 			show: false
 		},
 		{
 			id: 'graphics',
 			name: 'GRAPHICS + VIDEO',
 			content:
-				'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+				'Engage your personal and company audiences with custom branded visuals and concise short-form videos.',
 			show: false
 		},
 		{
 			id: 'newsletters',
 			name: 'NEWSLETTERS',
 			content:
-				'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+				'Monetize and nurture your owned audience with long-form content expertly crafted into modern newsletter formats.',
 			show: false
 		},
 		{
 			id: 'podcasts',
 			name: 'PODCASTS',
 			content:
-				'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+				'Expand your niche conversation and reach with full-stack podcast production. Expertly capture and publish interviews to amplify your influence.',
 			show: false
 		},
 		{
 			id: 'case-studies',
 			name: 'CASE STUDIES',
 			content:
-				'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+				'Showcase the success of your products, services, and strategies through influential stories. Versatile for both executives and companies alike.',
 			show: false
 		},
 		{
 			id: 'events',
 			name: 'DIGITAL EVENTS',
 			content:
-				'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+				'Receive comprehensive marketing support for digital events – from promotional efforts to seamless registration and hosting. All aligned with your overarching media plan.',
 			show: false
 		}
 	];
@@ -63,12 +63,12 @@
 <div>
 	<section
 		id="heading"
-		class="h-[80vh] pb-44 md:sticky top-0 flex justify-end flex-col items-stretch z-[1]"
+		class="pb-32 md:pb-44 md:sticky top-0 flex justify-end flex-col items-stretch z-[1]"
 	>
 		<div class="h-full pt-14">
-			<div class="grid mx-auto md:mx-auto px-8 relative md:w-[560px]">
+			<div class="grid mx-auto md:mx-auto px-8 relative md:w-[760px]">
 				<div
-					class="w-[200px] relative top-2 right-[-80px] sm:top-2 sm:right-[-125px] md:top-[10px] md:right-[-205px]"
+					class="w-[200px] relative top-2 right-[-100px] sm:top-2 sm:right-[-195px] md:top-[10px] md:right-[-285px]"
 				>
 					<p class="leading-[1] font-semibold">
 						A Modern <br /> Executive’s Personal Branding Agency
@@ -78,10 +78,10 @@
 					></div>
 				</div>
 				<h1 class="text-5xl sm:text-[5rem] md:text-7xl leading-[1] font-bold text-centr">
-					Our story is telling yours.
+					Telling your story is at the heart of our narrative.
 				</h1>
 			</div>
-			<div class="w-fit grid mx-auto relative top-12 lg:top-[15px] lg:right-[-280px]">
+			<div class="w-fit grid mx-auto relative top-12 lg:top-[15px] lg:right-[-70px]">
 				<ArrowLeft
 					class="w-24 h-24 sm:w-36 sm:h-36 md:w-44 md:h-44 dark:text-white animate-bounce"
 				/>
@@ -103,12 +103,13 @@
 				<div class="w-full h-[2px] dark:bg-white bg-black"></div>
 			</div>
 			<p class="tracking-wider md:text-4xl md:leading-[1.1] md:tracking-wide">
-				In an age of abundance, building a <span class="font-bold"
-					>trusted audience is priceless</span
-				>. Executives are becoming the most important stewards of their company, but they lack the
-				time and skills to build their personal brand.
-				<span class="font-bold">Digitimatic exists to help build your niche online</span> through authentic
-				and authoritative, whip-smart content.
+				In an era defined by information abundance, crafting <span class="font-bold"
+					>a trusted audience is invaluable</span
+				>. Executives are evolving into pivotal stewards of their companies, yet face challenges in
+				time and expertise for personal brand development.
+				<span class="font-bold"
+					>Digitimatic exists to aid in building your niche online
+				</span>through the creation of authentic, authoritative, and intellectually sharp content.
 			</p>
 		</div>
 		<hr class="hidden lg:grid h-[inherit] w-2 dark:bg-white bg-black" />
@@ -118,11 +119,13 @@
 				<div class="w-full h-[2px] dark:bg-white bg-black"></div>
 			</div>
 			<p class="tracking-wider md:text-4xl md:leading-[1.1] md:tracking-wide">
-				<span class="font-bold">Digitimatic</span> helps top executives, investors and entrepreneurs
-				<span class="font-bold">build their personal brand</span>
-				and own their corner of the internet, by capturing, sharing and amplifying their
-				<span class="font-bold">storied careers, unique insights and timeless lessons</span> on the platforms
-				most deeply connected with their target audience.
+				<span class="font-bold">Digitimatic</span> empowers top executives, investors, and
+				entrepreneurs to strategically
+				<span class="font-bold">build their personal brand</span>, asserting authority in their
+				niche on the internet. By capturing, sharing, and amplifying their
+				<span class="font-bold">storied careers, unique insights, and timeless lessons</span>,
+				Digitimatic ensures a compelling presence on platforms deeply connected with their target
+				audience.
 			</p>
 		</div>
 	</section>
@@ -138,10 +141,16 @@
 				<div id={item.id} class={`grid p-3 ${index > 0 ? 'border-t' : ''}`}>
 					<div class="flex items-center justify-between">
 						<p class="font-bold text-xl">{item.name}</p>
+						{#if !item.show}
 						<button class="relative top-2 accordion" on:click={() => toggleContent(item.id)}>
 							<div class="w-6 h-1 dark:bg-white bg-black relative top-[4px] right-[-4px]"></div>
 							<div class="h-6 w-1 dark:bg-white bg-black relative -top-[10px] -right-[14px]"></div>
 						</button>
+						{:else}
+						<button class="relative accordion" on:click={() => toggleContent(item.id)}>
+							<div class="w-6 h-1 dark:bg-white bg-black"></div>
+						</button>
+						{/if}
 					</div>
 					<div
 						transition:fade
@@ -174,8 +183,7 @@
 				<h1 class="font-bold text-4xl">Capture</h1>
 				<Capture class="w-64 h-64" />
 				<p class="w-full px-10 text-center">
-					Your stories, lessons, & insights captured through interviews & curated content that
-					begins to shape your narrative.
+					Shape your narrative with stories, lessons, and insights captured through interviews and curated content.
 				</p>
 			</div>
 			<div
@@ -184,8 +192,7 @@
 				<h1 class="font-bold text-4xl">Translate</h1>
 				<Translate class="w-64 h-64" />
 				<p class="w-full px-10 text-center">
-					Content is translated into compelling stories in your voice & tone by dedicated content &
-					copywriting experts.
+					Dedicated content and copywriting experts translate content into compelling stories, crafted in your unique voice and tone.
 				</p>
 			</div>
 			<div
@@ -194,8 +201,7 @@
 				<h1 class="font-bold text-4xl">Grow</h1>
 				<Growth class="w-64 h-64" />
 				<p class="w-full px-10 text-center">
-					Your strategy is fully customized to ensure your voice resonates authentically & content
-					converts within your niche.
+					Customized strategies ensure your voice resonates authentically, while content strategically converts within your niche.
 				</p>
 			</div>
 		</div>
@@ -216,7 +222,9 @@
 							placeholder="name@example.com"
 							class="bg-white p-[10px] rounded-md focus:outline-none w-full flex-1"
 						/>
-						<button class="p-3 rounded-md w-full sm:w-[25%] bg-black text-white h-auto">Get Started</button>
+						<button class="p-3 rounded-md w-full sm:w-[25%] bg-black text-white h-auto"
+							>Get Started</button
+						>
 					</form>
 				</div>
 			</div>
