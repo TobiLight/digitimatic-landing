@@ -216,7 +216,7 @@
 							placeholder="name@example.com"
 							class="bg-white p-3 rounded-md focus:outline-none w-[70%]"
 						/>
-						<button class="px-6 py-3 grid rounded-md w-auto bg-black text-white h-auto">Get Started</button>
+						<button class="px-6 py-3 grid rounded-md w-auto bg-black text-white h-auto text-sm sm:text-base">Get Started</button>
 					</form>
 				</div>
 			</div>
