@@ -205,7 +205,7 @@
 		<div id="contact" class="p-8 z-[6]">
 			<div class="py-4">
 				<h1 class="font-bold text-5xl w-4/5 md:w-2/4">Own Your Corner of the Internet in 5 Minutes</h1>
-				<div class="grid w-4/5 gap-10 mt-8">
+				<div class="grid md:w-4/5 gap-10 mt-8">
 					<p>
 						Send us your email, and we’ll send you a few questions to make sure we’re a great fit.
 					</p>
