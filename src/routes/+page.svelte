@@ -87,7 +87,7 @@
 				/>
 				<a
 					href="/#"
-					class="px-6 py-2 w-fit h-fit rounded border-2 border-black dark:border-white text-center hover:dark:bg-white hover:dark:text-black hover:bg-black hover:text-white transition-all ease-linear"
+					class="px-6 py-2 w-fit h-fit rounded border-2 border-black dark:border-white text-center hover:dark:bg-white hover:dark:text-black hover:bg-black hover:text-white transition-all ease-linear font-bold"
 					>Learn More</a
 				>
 			</div>
@@ -168,7 +168,7 @@
 	</section>
 
 	<section
-		class="dark:bg-black bg-white relative z-[3] border-t-2 border-black dark:border-white flex flex-col gap-10 p-4"
+		class="dark:bg-black bg-white relative z-[3] border-t-2 border-black dark:border-white flex flex-col gap-10 p-6"
 	>
 		<div class="flex items-center gap-2 pt-10">
 			<div class="w-full h-[2px] dark:bg-white bg-black"></div>
@@ -176,9 +176,9 @@
 			<div class="w-full h-[2px] dark:bg-white bg-black"></div>
 		</div>
 
-		<div class="flex flex-col lg:flex-row items-start gap-4">
+		<div class="flex flex-col lg:flex-row items-start gap-8">
 			<div
-				class="border dark:border-white border-black rounded-md p-4 w-full flex flex-col items-center justify-center"
+				class="border dark:border-white border-black rounded-md p-4 w-full flex flex-col items-center justify-center hover:scale-105 transition-all ease-linear"
 			>
 				<h1 class="font-bold text-4xl">Capture</h1>
 				<Capture class="w-64 h-64" />
@@ -187,7 +187,7 @@
 				</p>
 			</div>
 			<div
-				class="border dark:border-white border-black rounded-md p-4 w-full flex flex-col items-center justify-center"
+				class="border dark:border-white border-black rounded-md p-4 w-full flex flex-col items-center justify-center hover:scale-105 transition-all ease-linear"
 			>
 				<h1 class="font-bold text-4xl">Translate</h1>
 				<Translate class="w-64 h-64" />
@@ -196,7 +196,7 @@
 				</p>
 			</div>
 			<div
-				class="border dark:border-white border-black rounded-md p-4 w-full flex flex-col items-center justify-center"
+				class="border dark:border-white border-black rounded-md p-4 w-full flex flex-col items-center justify-center hover:scale-105 transition-all ease-linear"
 			>
 				<h1 class="font-bold text-4xl">Grow</h1>
 				<Growth class="w-64 h-64" />
