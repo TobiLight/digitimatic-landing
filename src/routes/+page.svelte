@@ -3,6 +3,60 @@
 	import Growth from '$lib/icons/Growth.svelte';
 	import Capture from '$lib/icons/Capture.svelte';
 	import Translate from '$lib/icons/Translate.svelte';
+
+	let services = [
+		{
+			id: 'social-content',
+			name: 'SOCIAL CONTENT',
+			content:
+				'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+			show: false
+		},
+		{
+			id: 'graphics',
+			name: 'GRAPHICS + VIDEO',
+			content:
+				'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+			show: false
+		},
+		{
+			id: 'newsletters',
+			name: 'NEWSLETTERS',
+			content:
+				'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+			show: false
+		},
+		{
+			id: 'podcasts',
+			name: 'PODCASTS',
+			content:
+				'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+			show: false
+		},
+		{
+			id: 'case-studies',
+			name: 'CASE STUDIES',
+			content:
+				'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+			show: false
+		},
+		{
+			id: 'events',
+			name: 'DIGITAL EVENTS',
+			content:
+				'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+			show: false
+		}
+	];
+
+	function toggleContent(id: string) {
+		services = services.map((service) => {
+			if (service.id === id) {
+				service.show = !service.show;
+			}
+			return service;
+		});
+	}
 </script>
 
 <div>
@@ -12,27 +66,33 @@
 	>
 		<div class="h-full pt-14">
 			<div class="grid mx-auto md:mx-auto px-8 relative md:w-[560px]">
-			<div
-				class="w-[200px] relative top-2 right-[-80px] sm:top-2 sm:right-[-125px] md:top-[10px] md:right-[-205px]"
-			>
-				<p class="leading-[1] font-semibold">
-					A Modern <br /> Executive’s Personal Branding Agency
-				</p>
-				<div class="h-[2px] w-[50px] bg-black dark:bg-white absolute top-[12px] right-[70px]"></div>
+				<div
+					class="w-[200px] relative top-2 right-[-80px] sm:top-2 sm:right-[-125px] md:top-[10px] md:right-[-205px]"
+				>
+					<p class="leading-[1] font-semibold">
+						A Modern <br /> Executive’s Personal Branding Agency
+					</p>
+					<div
+						class="h-[2px] w-[50px] bg-black dark:bg-white absolute top-[12px] right-[70px]"
+					></div>
+				</div>
+				<h1 class="text-5xl sm:text-[5rem] md:text-7xl leading-[1] font-bold text-centr">
+					Our story is telling yours.
+				</h1>
 			</div>
-			<h1 class="text-5xl sm:text-[5rem] md:text-7xl leading-[1] font-bold text-centr">Our story is telling yours.</h1>
-		</div>
-		<div class="w-fit grid mx-auto relative top-12 lg:top-[15px] lg:right-[-280px]">
-			<ArrowLeft class="w-24 h-24 sm:w-36 sm:h-36 md:w-44 md:h-44 dark:text-white animate-bounce" />
-			<a
-				href="/#"
-				class="px-6 py-2 w-fit h-fit rounded border-2 border-black dark:border-white text-center hover:dark:bg-white hover:dark:text-black hover:bg-black hover:text-white transition-all ease-linear"
-				>Learn More</a
-			>
-		</div>
+			<div class="w-fit grid mx-auto relative top-12 lg:top-[15px] lg:right-[-280px]">
+				<ArrowLeft
+					class="w-24 h-24 sm:w-36 sm:h-36 md:w-44 md:h-44 dark:text-white animate-bounce"
+				/>
+				<a
+					href="/#"
+					class="px-6 py-2 w-fit h-fit rounded border-2 border-black dark:border-white text-center hover:dark:bg-white hover:dark:text-black hover:bg-black hover:text-white transition-all ease-linear"
+					>Learn More</a
+				>
+			</div>
 		</div>
 	</section>
-	
+
 	<section
 		class="h-auto font-roboto flex flex-col lg:flex-row lg:gap-8 lg:items-start dark:bg-black bg-white z-[4] border-t-2 border-black dark:border-white relative top-0 px-6"
 	>
@@ -50,7 +110,7 @@
 				authentic and authoritative, whip-smart content.
 			</p>
 		</div>
-		<hr class="hidden lg:grid h-[inherit] w-2 dark:bg-white bg-black">
+		<hr class="hidden lg:grid h-[inherit] w-2 dark:bg-white bg-black" />
 		<div class="who-we-help grid gap-4 md:gap-10 py-12">
 			<div class="flex items-center gap-4">
 				<h1 class="w-[160px] font-bold text-sm md:text-lg">Who We Help</h1>
@@ -66,63 +126,35 @@
 		</div>
 	</section>
 
-	<section class="dark:bg-black bg-white relative z-[3] border-t-2 border-black dark:border-white flex flex-col gap-6 md:flex-row p-8">
+	<section
+		class="dark:bg-black bg-white relative z-[3] border-t-2 border-black dark:border-white flex flex-col gap-6 md:flex-row p-8"
+	>
 		<div class="pt-6">
 			<h1 class="text-4xl sm:text-7xl md:text-8xl font-bold">Your mini media company.</h1>
 		</div>
 		<div class="border-y flex flex-col w-full md:w-11/12 mt-10">
-			<div class="flex items-center justify-between p-3">
-				<p class="font-bold text-2xl">SOCIAL CONTENT</p>
-				<!-- <Add class="w-8 h-8" /> -->
-				<div class="relative top-2">
-					<div class="w-6 h-1 dark:bg-white bg-black relative top-[4px] right-[-4px]"></div>
-					<div class="h-6 w-1 dark:bg-white bg-black relative -top-[10px] -right-[14px]"></div>
+			{#each services as item}
+				<div id={item.id} class="grid p-3">
+					<div class="flex items-center justify-between">
+						<p class="font-bold text-2xl">{item.name}</p>
+						<button class="relative top-2 accordion" on:click={() => toggleContent(item.id)}>
+							<div class="w-6 h-1 dark:bg-white bg-black relative top-[4px] right-[-4px]"></div>
+							<div class="h-6 w-1 dark:bg-white bg-black relative -top-[10px] -right-[14px]"></div>
+						</button>
+					</div>
+					<div class={`panel ${item.show ? 'block' : 'hidden'}`}>
+						<p>
+							{item.content}
+						</p>
+					</div>
 				</div>
-			</div>
-			<div class="flex items-center justify-between p-3 border-t">
-				<p class="font-bold text-2xl">GRAPHICS + VIDEO</p>
-				<!-- <Add class="w-8 h-8" /> -->
-				<div class="relative top-2">
-					<div class="w-6 h-1 dark:bg-white bg-black relative top-[4px] right-[-4px]"></div>
-					<div class="h-6 w-1 dark:bg-white bg-black relative -top-[10px] -right-[14px]"></div>
-				</div>
-			</div>
-			<div class="flex items-center justify-between p-3 border-t">
-				<p class="font-bold text-2xl">NEWSLETTERS</p>
-				<!-- <Add class="w-8 h-8" /> -->
-				<div class="relative top-2">
-					<div class="w-6 h-1 dark:bg-white bg-black relative top-[4px] right-[-4px]"></div>
-					<div class="h-6 w-1 dark:bg-white bg-black relative -top-[10px] -right-[14px]"></div>
-				</div>
-			</div>
-			<div class="flex items-center justify-between p-3 border-t">
-				<p class="font-bold text-2xl">PODCASTS</p>
-				<!-- <Add class="w-8 h-8" /> -->
-				<div class="relative top-2">
-					<div class="w-6 h-1 dark:bg-white bg-black relative top-[4px] right-[-4px]"></div>
-					<div class="h-6 w-1 dark:bg-white bg-black relative -top-[10px] -right-[14px]"></div>
-				</div>
-			</div>
-			<div class="flex items-center justify-between p-3 border-t">
-				<p class="font-bold text-2xl">CASE STUDIES</p>
-				<!-- <Add class="w-8 h-8" /> -->
-				<div class="relative top-2">
-					<div class="w-6 h-1 dark:bg-white bg-black relative top-[4px] right-[-4px]"></div>
-					<div class="h-6 w-1 dark:bg-white bg-black relative -top-[10px] -right-[14px]"></div>
-				</div>
-			</div>
-			<div class="flex items-center justify-between p-3 border-t">
-				<p class="font-bold text-2xl">DIGITAL EVENTS</p>
-				<!-- <Add class="w-8 h-8" /> -->
-				<div class="relative top-2">
-					<div class="w-6 h-1 dark:bg-white bg-black relative top-[4px] right-[-4px]"></div>
-					<div class="h-6 w-1 dark:bg-white bg-black relative -top-[10px] -right-[14px]"></div>
-				</div>
-			</div>
+			{/each}
 		</div>
 	</section>
 
-	<section class="dark:bg-black bg-white relative z-[3] border-t-2 border-black dark:border-white flex flex-col gap-10 p-8">
+	<section
+		class="dark:bg-black bg-white relative z-[3] border-t-2 border-black dark:border-white flex flex-col gap-10 p-8"
+	>
 		<div class="flex items-center gap-2">
 			<div class="w-full h-[2px] dark:bg-white bg-black"></div>
 			<p class="w-[36rem] text-center text-sm font-bold">Your Voice, Our Way</p>
@@ -130,20 +162,35 @@
 		</div>
 
 		<div class="flex flex-col lg:flex-row items-center gap-4">
-			<div class="border dark:border-white border-black rounded-md p-4 w-full flex flex-col items-center justify-center">
+			<div
+				class="border dark:border-white border-black rounded-md p-4 w-full flex flex-col items-center justify-center"
+			>
 				<h1 class="font-bold text-4xl">Capture</h1>
 				<Capture class="w-64 h-64" />
-				<p class="w-full px-10 text-center">Your stories, lessons, & insights captured through interviews & curated  content that begins to shape your narrative.</p>
+				<p class="w-full px-10 text-center">
+					Your stories, lessons, & insights captured through interviews & curated content that
+					begins to shape your narrative.
+				</p>
 			</div>
-			<div class="border dark:border-white border-black rounded-md p-4 w-full flex flex-col items-center justify-center">
+			<div
+				class="border dark:border-white border-black rounded-md p-4 w-full flex flex-col items-center justify-center"
+			>
 				<h1 class="font-bold text-4xl">Capture</h1>
 				<Translate class="w-64 h-64" />
-				<p class="w-full px-10 text-center">Content is translated into compelling stories in your voice & tone by dedicated content & copywriting experts.</p>
+				<p class="w-full px-10 text-center">
+					Content is translated into compelling stories in your voice & tone by dedicated content &
+					copywriting experts.
+				</p>
 			</div>
-			<div class="border dark:border-white border-black rounded-md p-4 w-full flex flex-col items-center justify-center">
+			<div
+				class="border dark:border-white border-black rounded-md p-4 w-full flex flex-col items-center justify-center"
+			>
 				<h1 class="font-bold text-4xl">Grow</h1>
 				<Growth class="w-64 h-64" />
-				<p class="w-full px-10 text-center">Your strategy is fully customized to ensure your voice resonates authentically &  content converts within your niche.</p>
+				<p class="w-full px-10 text-center">
+					Your strategy is fully customized to ensure your voice resonates authentically & content
+					converts within your niche.
+				</p>
 			</div>
 		</div>
 	</section>
