@@ -202,7 +202,7 @@
 	</section>
 
 	<section class="bg-black relative z-[5]">
-		<div id="contact" class="p-8 z-[6] dark:text-white">
+		<div id="contact" class="p-8 z-[6] dark:text-white text-white">
 			<div class="py-4">
 				<h1 class="font-bold text-5xl w-4/5 md:w-2/4">Own Your Corner of the Internet in 5 Minutes</h1>
 				<div class="grid md:w-4/5 gap-10 mt-8">
