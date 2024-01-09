@@ -107,8 +107,8 @@
 					>trusted audience is priceless</span
 				>. Executives are becoming the most important stewards of their company, but they lack the
 				time and skills to build their personal brand.
-				<span class="font-bold">Digitimatic exists to help build your niche online</span> through
-				authentic and authoritative, whip-smart content.
+				<span class="font-bold">Digitimatic exists to help build your niche online</span> through authentic
+				and authoritative, whip-smart content.
 			</p>
 		</div>
 		<hr class="hidden lg:grid h-[inherit] w-2 dark:bg-white bg-black" />
@@ -118,11 +118,11 @@
 				<div class="w-full h-[2px] dark:bg-white bg-black"></div>
 			</div>
 			<p class="tracking-wider md:text-4xl md:leading-[1.1] md:tracking-wide">
-				<span class="font-bold">Digitimatic</span> helps top executives, investors and
-				entrepreneurs <span class="font-bold">build their personal brand</span> and own their
-				corner of the internet, by capturing, sharing and amplifying their
-				<span class="font-bold">storied careers, unique insights and timeless lessons</span> on
-				the platforms most deeply connected with their target audience.
+				<span class="font-bold">Digitimatic</span> helps top executives, investors and entrepreneurs
+				<span class="font-bold">build their personal brand</span>
+				and own their corner of the internet, by capturing, sharing and amplifying their
+				<span class="font-bold">storied careers, unique insights and timeless lessons</span> on the platforms
+				most deeply connected with their target audience.
 			</p>
 		</div>
 	</section>
@@ -143,7 +143,12 @@
 							<div class="h-6 w-1 dark:bg-white bg-black relative -top-[10px] -right-[14px]"></div>
 						</button>
 					</div>
-					<div transition:fade class={`panel transition-all ease-in-out ${item.show ? 'max-h-[300px] py-1 opacity-1' : 'max-h-0 py-0 opacity-0'}`}>
+					<div
+						transition:fade
+						class={`panel transition-all ease-in-out ${
+							item.show ? 'max-h-[300px] py-1 opacity-1' : 'max-h-0 py-0 opacity-0'
+						}`}
+					>
 						<p>
 							{item.content}
 						</p>
@@ -196,7 +201,13 @@
 		</div>
 	</section>
 
-	<section class="p-8 bg-[url('https://res.cloudinary.com/ddt59lbmx/image/upload/f_auto,q_auto/v1/digitimatic/g5gutzqme2kqtc9mlijn')] bg-fixed bg-cover bg-center">
-
+	<section class="bg-black z-[2]">
+		<div
+			class="p-8 bg-[url('https://res.cloudinary.com/ddt59lbmx/image/upload/f_auto,q_auto/v1/digitimatic/g5gutzqme2kqtc9mlijn')] bg-fixed bg-cover bg-center bg-black opacity-60 z-[2]"
+		>
+			<div class="py-10 z-[4]">
+				<h1>Own Your Corner of the Internet in 5 Minutes</h1>
+			</div>
+		</div>
 	</section>
 </div>
