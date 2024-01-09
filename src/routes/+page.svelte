@@ -205,18 +205,18 @@
 		<div id="contact" class="p-8 z-[6] dark:text-white text-white">
 			<div class="py-4">
 				<h1 class="font-bold text-5xl w-4/5 md:w-2/4">Own Your Corner of the Internet in 5 Minutes</h1>
-				<div class="grid md:w-4/5 gap-10 mt-8">
+				<div class="grid sm:w-4/5 md:w-3/5 gap-5 mt-8">
 					<p>
 						Send us your email, and we’ll send you a few questions to make sure we’re a great fit.
 					</p>
 
-					<form action="" class="flex items-center gap-4">
+					<form action="" class="grid sm:flex w-full items-center gap-4">
 						<input
 							type="text"
 							placeholder="name@example.com"
-							class="bg-white p-3 rounded-md focus:outline-none w-[70%]"
+							class="bg-white p-[10px] rounded-md focus:outline-none w-full flex-1"
 						/>
-						<button class="px-5 py-3 rounded-md w-fit bg-black text-white h-auto text-sm sm:text-base">Get Started</button>
+						<button class="p-3 rounded-md w-full sm:w-[20%] bg-black text-white h-auto">Get Started</button>
 					</form>
 				</div>
 			</div>
