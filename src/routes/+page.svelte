@@ -134,8 +134,8 @@
 			<h1 class="text-4xl sm:text-7xl md:text-8xl font-bold">Your mini media company.</h1>
 		</div>
 		<div class="border-y flex flex-col w-full md:w-11/12 mt-10">
-			{#each services as item}
-				<div id={item.id} class="grid p-3">
+			{#each services as item, index}
+				<div id={item.id} class={`grid p-3 ${index > 0 ? 'border-t' : ''}`}>
 					<div class="flex items-center justify-between">
 						<p class="font-bold text-2xl">{item.name}</p>
 						<button class="relative top-2 accordion" on:click={() => toggleContent(item.id)}>
