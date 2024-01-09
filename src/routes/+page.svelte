@@ -95,7 +95,7 @@
 	</section>
 
 	<section
-		class="h-auto font-roboto flex flex-col lg:flex-row lg:gap-8 lg:items-start dark:bg-black bg-white z-[4] border-t-2 border-black dark:border-white relative top-0 px-6"
+		class="h-auto font-robto flex flex-col lg:flex-row lg:gap-8 lg:items-start dark:bg-black bg-white z-[4] border-t-2 border-black dark:border-white relative top-0 px-6"
 	>
 		<div class="what-we-do grid gap-4 md:gap-10 py-12">
 			<div class="flex items-center gap-4">
@@ -103,11 +103,11 @@
 				<div class="w-full h-[2px] dark:bg-white bg-black"></div>
 			</div>
 			<p class="tracking-wider md:text-4xl md:leading-[1.1] md:tracking-wide">
-				In an age of abundance, building a <span class="font-extrabold"
+				In an age of abundance, building a <span class="font-bold"
 					>trusted audience is priceless</span
 				>. Executives are becoming the most important stewards of their company, but they lack the
 				time and skills to build their personal brand.
-				<span class="font-extrabold">Digitimatic exists to help build your niche online</span> through
+				<span class="font-bold">Digitimatic exists to help build your niche online</span> through
 				authentic and authoritative, whip-smart content.
 			</p>
 		</div>
@@ -118,17 +118,17 @@
 				<div class="w-full h-[2px] dark:bg-white bg-black"></div>
 			</div>
 			<p class="tracking-wider md:text-4xl md:leading-[1.1] md:tracking-wide">
-				<span class="font-extrabold">Digitimatic</span> helps top executives, investors and
-				entrepreneurs <span class="font-extrabold">build their personal brand</span> and own their
+				<span class="font-bold">Digitimatic</span> helps top executives, investors and
+				entrepreneurs <span class="font-bold">build their personal brand</span> and own their
 				corner of the internet, by capturing, sharing and amplifying their
-				<span class="font-extrabold">storied careers, unique insights and timeless lessons</span> on
+				<span class="font-bold">storied careers, unique insights and timeless lessons</span> on
 				the platforms most deeply connected with their target audience.
 			</p>
 		</div>
 	</section>
 
 	<section
-		class="dark:bg-black bg-white relative z-[3] border-t-2 border-black dark:border-white flex flex-col gap-6 md:flex-row p-4"
+		class="dark:bg-black bg-white relative z-[3] border-t-2 border-black dark:border-white flex flex-col gap-6 md:flex-row p-4 pb-14"
 	>
 		<div class="pt-6">
 			<h1 class="text-4xl sm:text-7xl md:text-8xl font-bold">Your mini media company.</h1>
@@ -156,13 +156,13 @@
 	<section
 		class="dark:bg-black bg-white relative z-[3] border-t-2 border-black dark:border-white flex flex-col gap-10 p-4"
 	>
-		<div class="flex items-center gap-2">
+		<div class="flex items-center gap-2 pt-10">
 			<div class="w-full h-[2px] dark:bg-white bg-black"></div>
 			<p class="w-[36rem] text-center text-sm font-bold">Your Voice, Our Way</p>
 			<div class="w-full h-[2px] dark:bg-white bg-black"></div>
 		</div>
 
-		<div class="flex flex-col lg:flex-row items-center gap-4">
+		<div class="flex flex-col lg:flex-row items-start gap-4">
 			<div
 				class="border dark:border-white border-black rounded-md p-4 w-full flex flex-col items-center justify-center"
 			>
@@ -196,7 +196,7 @@
 		</div>
 	</section>
 
-	<section class="p-8 bg-[(url]">
+	<section class="p-8 bg-[url('')]">
 
 	</section>
 </div>
