@@ -137,7 +137,7 @@
 			{#each services as item, index}
 				<div id={item.id} class={`grid p-3 ${index > 0 ? 'border-t' : ''}`}>
 					<div class="flex items-center justify-between">
-						<p class="font-bold text-2xl">{item.name}</p>
+						<p class="font-bold text-xl">{item.name}</p>
 						<button class="relative top-2 accordion" on:click={() => toggleContent(item.id)}>
 							<div class="w-6 h-1 dark:bg-white bg-black relative top-[4px] right-[-4px]"></div>
 							<div class="h-6 w-1 dark:bg-white bg-black relative -top-[10px] -right-[14px]"></div>
