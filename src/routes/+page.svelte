@@ -210,11 +210,11 @@
 						Send us your email, and we’ll send you a few questions to make sure we’re a great fit.
 					</p>
 
-					<form action="" class="flex items-center gap-8">
+					<form action="" class="flex items-center gap-4">
 						<input
 							type="text"
 							placeholder="name@example.com"
-							class="bg-white p-3 rounded focus:outline-none w-full"
+							class="bg-white p-3 rounded focus:outline-none w-[50%]"
 						/>
 						<button class="px-6 py-3 grid rounded-md w-auto bg-black text-white h-auto">Get Started</button>
 					</form>
