@@ -201,13 +201,42 @@
 		</div>
 	</section>
 
-	<section class="bg-black z-[2]">
-		<div
-			class="p-8 bg-[url('https://res.cloudinary.com/ddt59lbmx/image/upload/f_auto,q_auto/v1/digitimatic/g5gutzqme2kqtc9mlijn')] bg-fixed bg-cover bg-center bg-black opacity-60 z-[2]"
-		>
-			<div class="py-10 z-[4]">
-				<h1>Own Your Corner of the Internet in 5 Minutes</h1>
+	<section class="bg-black relative z-[5]">
+		<div id="contact" class="p-8 z-[6]">
+			<div class="py-4">
+				<h1 class="font-bold text-5xl w-2/4">Own Your Corner of the Internet in 5 Minutes</h1>
+				<div class="grid w-3/5">
+					<p>
+						Send us your email, and we’ll send you a few questions to make sure we’re a great fit.
+					</p>
+
+					<form action="" class="flex items-center gap-8">
+						<input
+							type="text"
+							placeholder="name@example.com"
+							class="bg-white p-3 rounded focus:outline-none w-full"
+						/>
+						<button class="px-6 py-3 grid rounded-md w-auto bg-black text-white h-auto">Get Started</button>
+					</form>
+				</div>
 			</div>
 		</div>
 	</section>
 </div>
+
+<style>
+	#contact {
+		border-top: 1px solid var(--dark--text);
+		border-bottom: 1px solid var(--dark--text);
+		background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+			url(https://res.cloudinary.com/dmqndbqqy/image/upload/f_auto,q_auto/v1/digitimatic-media/grparh5unu3bantpdtmw);
+		background-position:
+			0 0,
+			50% 0;
+		background-size: auto, cover;
+		background-attachment: scroll, fixed;
+		position: -webkit-sticky;
+		position: sticky;
+		top: 0;
+	}
+</style>
