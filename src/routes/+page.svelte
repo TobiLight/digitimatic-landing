@@ -178,7 +178,7 @@
 
 		<div class="flex flex-col lg:flex-row items-start gap-8">
 			<div
-				class="border dark:border-white border-black rounded-md p-4 w-full flex flex-col items-center justify-center hover:scale-105 transition-all ease-linear"
+				class="border dark:border-white border-black rounded-md p-4 w-full flex flex-col items-center justify-center hover:scale-105 transition-all ease-linear hover:ring-2 ring-green-300"
 			>
 				<h1 class="font-bold text-4xl">Capture</h1>
 				<Capture class="w-64 h-64" />
