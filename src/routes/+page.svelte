@@ -205,7 +205,7 @@
 		<div id="contact" class="p-8 z-[6]">
 			<div class="py-4">
 				<h1 class="font-bold text-5xl w-2/4">Own Your Corner of the Internet in 5 Minutes</h1>
-				<div class="grid w-3/4">
+				<div class="grid w-4/5 gap-10 mt-8">
 					<p>
 						Send us your email, and we’ll send you a few questions to make sure we’re a great fit.
 					</p>
@@ -214,7 +214,7 @@
 						<input
 							type="text"
 							placeholder="name@example.com"
-							class="bg-white p-3 rounded focus:outline-none w-[60%]"
+							class="bg-white p-3 rounded-md focus:outline-none w-[70%]"
 						/>
 						<button class="px-6 py-3 grid rounded-md w-auto bg-black text-white h-auto">Get Started</button>
 					</form>
